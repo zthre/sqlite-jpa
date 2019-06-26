@@ -49,7 +49,9 @@ public class SQLiteDialect extends Dialect {
 		registerFunction("substring", new StandardSQLFunction("substr",
 				Hibernate.STRING));
 	}
-
+    public String holaQueHace() {
+		return "hola que hace";
+	}
 	public boolean supportsIdentityColumns() {
 		return true;
 	}
