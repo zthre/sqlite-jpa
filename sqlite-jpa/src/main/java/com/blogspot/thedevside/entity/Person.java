@@ -24,6 +24,8 @@ public class Person implements Serializable {
 	private String name;
 	private Integer age;
 	private Date dateOfYear;
+	private String apellido;
+	private Integer altura;
 
 	public Integer getId() {
 		return id;
