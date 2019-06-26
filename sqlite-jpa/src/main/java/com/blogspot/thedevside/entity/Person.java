@@ -23,6 +23,7 @@ public class Person implements Serializable {
 	private Integer id; 
 	private String name;
 	private Integer age;
+	private Boolean bvar;
 	private String campo1;
 	private String dress;
 	private String city;
