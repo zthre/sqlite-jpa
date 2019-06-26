@@ -51,6 +51,13 @@ public class SQLiteDialect extends Dialect {
 	}
 	public boolean gansosCiegos(){
 	}
+	public boolean pruebaEnEsePex(){
+		return false;
+	}
+	
+    public String holaQueHace() {
+		return "hola que hace";
+	}
 	public boolean supportsIdentityColumns() {
 		return true;
 	}
