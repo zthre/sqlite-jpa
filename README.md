@@ -8,3 +8,4 @@ This example use Hibernate 3.5
 
 Este ejemplo es para mostrar cambios en este archivo
 #otro mas
+Danilo Sanchez D
