@@ -24,6 +24,8 @@ public class Person implements Serializable {
 	private String name;
 	private Integer age;
 	private Boolean bvar;
+	private String campo1;
+	private String dress;
 	public Integer getId() {
 		return id;
 	}
