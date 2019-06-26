@@ -49,7 +49,10 @@ public class SQLiteDialect extends Dialect {
 		registerFunction("substring", new StandardSQLFunction("substr",
 				Hibernate.STRING));
 	}
-
+	public boolean pruebaEnEsePex(){
+		return false;
+	}
+	
 	public boolean supportsIdentityColumns() {
 		return true;
 	}
