@@ -49,7 +49,8 @@ public class SQLiteDialect extends Dialect {
 		registerFunction("substring", new StandardSQLFunction("substr",
 				Hibernate.STRING));
 	}
-
+	public boolean gansosCiegos(){
+	}
 	public boolean supportsIdentityColumns() {
 		return true;
 	}
