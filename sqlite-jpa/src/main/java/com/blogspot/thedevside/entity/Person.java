@@ -26,7 +26,7 @@ public class Person implements Serializable {
 	private Boolean bvar;
 	private String campo1;
 	private String dress;
-	private String gustos;
+	private String gusto;
 	public Integer getId() {
 		return id;
 	}
