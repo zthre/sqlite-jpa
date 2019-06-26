@@ -23,6 +23,7 @@ public class Person implements Serializable {
 	private Integer id; 
 	private String name;
 	private Integer age;
+	private String documento;
 
 	public Integer getId() {
 		return id;
