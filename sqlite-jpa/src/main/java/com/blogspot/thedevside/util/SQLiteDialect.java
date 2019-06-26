@@ -39,6 +39,7 @@ public class SQLiteDialect extends Dialect {
 		registerColumnType(Types.BLOB, "blob");
 		registerColumnType(Types.CLOB, "clob");
 		registerColumnType(Types.BOOLEAN, "integer");
+		registerColumnType(Types.VARCHAR, "varchar");
 
 		registerFunction("concat", new VarArgsSQLFunction(Hibernate.STRING, "",
 				"||", ""));
