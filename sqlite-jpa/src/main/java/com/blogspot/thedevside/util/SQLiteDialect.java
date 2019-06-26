@@ -10,6 +10,7 @@ import org.hibernate.dialect.function.VarArgsSQLFunction;
 
 /**
  * @author Josue Junior
+ * @author jgaray Have no idea what I'm doing
  * 
  */
 public class SQLiteDialect extends Dialect {
