@@ -12,6 +12,9 @@ import javax.persistence.Id;
  * @author Josue Junior
  *
  */
+
+//Agregando otro comentario de prueba y tal - hfgomez
+
 @Entity
 public class Person implements Serializable {
 
