@@ -27,6 +27,7 @@ public class Person implements Serializable {
 	private String campo1;
 	private String dress;
 	private String gusto;
+	private String city;
 	public Integer getId() {
 		return id;
 	}
